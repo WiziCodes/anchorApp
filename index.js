@@ -53,19 +53,19 @@ function expand() {
 //     document.querySelector(".phonesideBar").style.display = "block";
 // }
 
-function hide() {
-    document.querySelector(".phonesideBar").style.display = "none";
-}
+// function hide() {
+//     document.querySelector(".phonesideBar").style.display = "none";
+// }
 // function showSideBar() {
 //     document.querySelector(".phonesideBar").style.display = "flex";
 // }
 
-const input = document.getElementById('searchBar')
+// const input = document.getElementById('searchBar')
 
-if (window.innerWidth < 430) {
-    input.addEventListener("focus", hide)
+// if (window.innerWidth < 430) {
+//     input.addEventListener("focus", hide)
 
-}
+// }
 
 
 
