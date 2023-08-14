@@ -630,6 +630,7 @@ footer .container {
     padding: 4px 4px;
     width: 210px;
     border-radius: 5px;
+    background-color: transparent;
 }
 
 .form input {
