@@ -63,7 +63,7 @@ function searchMovies() {
 const recentMovies = document.getElementById("recents");
 
 const fetchRecents = async () => {
-    const response = await fetch("https://mocki.io/v1/46598bec-8c48-45a2-9bf2-9016742d71ba")
+    const response = await fetch("https://mocki.io/v1/7aa84aff-9f67-430a-b32d-2f52bd83a103")
     const movies = response.json();
     return movies;
 };
@@ -155,7 +155,7 @@ createTrending();
 const discoveredMovies = document.getElementById("discover");
 
 const fetchDiscovered = async () => {
-    const response = await fetch("https://mocki.io/v1/7f419f62-d19f-4d47-ad95-d97b2e15d22f")
+    const response = await fetch("https://mocki.io/v1/77e73b5e-1e98-44ad-afe8-1d20c1a79a11")
     const movies = response.json();
     return movies;
 };
