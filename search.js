@@ -13,7 +13,7 @@ function searchMovies() {
             x[i].style.display = "list-item";
             // document.querySelector(".searchStatus").style.display = "none";
         }
-        // console.log(x[i].getComputedStyle())
+
     }
     if(counter>=x.length){
             document.querySelector(".searchStatus").style.display = "block";
