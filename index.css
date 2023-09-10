@@ -1074,7 +1074,8 @@ footer .container {
 
     ol {
         display: flex;
-        overflow-x: scroll;
+        flex-direction: column;
+        /* overflow-x: scroll; */
         list-style: none;
         padding-left: 30px;
     }
@@ -1147,10 +1148,12 @@ footer .container {
 
     ol {
         display: flex;
-        overflow-x: scroll;
+        flex-direction: column;
+        /* overflow-x: scroll; */
         list-style: none;
         padding-left: 30px;
     }
+
 
     .movies {
         position: relative;
@@ -1332,10 +1335,12 @@ footer .container {
 
     ol {
         display: flex;
-        overflow-x: scroll;
+        flex-direction: column;
+        /* overflow-x: scroll; */
         list-style: none;
-        padding-left: 10px;
+        padding-left: 30px;
     }
+
 
     .movies {
         position: relative;
