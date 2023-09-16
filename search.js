@@ -42,7 +42,7 @@ function searchMovies() {
   if (input.length > 0 && window.innerWidth <= 380) {
     document.querySelectorAll("ol").forEach((i) => {
       i.style.display = "grid";
-      i.style.gridTemplateColumns = "1fr";
+      i.style.gridTemplateColumns = "1fr 1fr";
       console.log(window.innerWidth);
     });
   } else {

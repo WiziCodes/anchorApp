@@ -281,7 +281,7 @@ a {
 }
 
 .descriptionCont h1 {
-   font-family: 'Happy Monkey', cursive;
+    font-family: 'Happy Monkey', cursive;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -428,12 +428,13 @@ a {
     padding: 5px;
     border-radius: 5px;
     color: orangered;
-   font-family: 'Happy Monkey', cursive;
+    font-family: 'Happy Monkey', cursive;
     text-shadow: 0px 0px 2px orangered;
     max-width: 90%;
     max-height: 45px !important;
     text-align: center;
     font-size: 15px;
+
 }
 
 .movies .movieDesc {
@@ -730,7 +731,7 @@ footer .container {
     bottom: 0;
     width: 100%;
     z-index: 999;
-   font-family: 'Happy Monkey', cursive;
+    font-family: 'Happy Monkey', cursive;
     font-weight: 600;
     font-size: 17px;
     background-color: rgb(237, 95, 43);
@@ -840,7 +841,7 @@ footer .container {
     }
 
     .descriptionCont h1 {
-       font-family: 'Happy Monkey', cursive;
+        font-family: 'Happy Monkey', cursive;
         font-size: 25px;
         margin-top: 10px;
         margin-bottom: 15px;
@@ -872,6 +873,11 @@ footer .container {
         grid-template-columns: 1fr 1fr;
         list-style: none;
         padding: 0px;
+    }
+
+    .movies .movieDesc {
+        max-width: 80%;
+
     }
 
     .movies {
@@ -1073,11 +1079,13 @@ footer .container {
     }
 
     ol {
-        display: flex;
-        flex-direction: column;
-        /* overflow-x: scroll; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        /* overflow-x: scroll;
         list-style: none;
-        padding-left: 30px;
+        padding-left: 30px; */
     }
 
     .movies {
@@ -1085,10 +1093,10 @@ footer .container {
         cursor: pointer;
         transition: 1s ease;
         background-color: black;
-        width: 280px;
-        height: 380px;
+        width: 165px;
+        height: 280px;
         border-radius: 5px;
-        margin-right: 20px;
+        /* margin-right: 20px; */
         box-shadow: 3px 3px 3px black;
     }
 
@@ -1147,23 +1155,21 @@ footer .container {
     }
 
     ol {
-        display: flex;
-        flex-direction: column;
-        /* overflow-x: scroll; */
-        list-style: none;
-        padding-left: 30px;
-    }
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
 
+    }
 
     .movies {
         position: relative;
         cursor: pointer;
         transition: 1s ease;
         background-color: black;
-        width: 280px;
-        height: 380px;
+        width: 160px;
+        height: 280px;
         border-radius: 5px;
-        margin-right: 20px;
         box-shadow: 3px 3px 3px black;
     }
 
@@ -1189,11 +1195,16 @@ footer .container {
         padding: 21px 15px;
     }
 
+    .movieTitleCont h4 {
+        overflow: scroll;
+
+    }
+
     .movies .movieDesc {
         top: 30%;
         left: 6%;
         color: black;
-        max-width: 80%;
+        max-width: 90%;
         max-height: 40%;
         overflow-y: scroll;
         font-family: 'Poppins', sans-serif;
@@ -1311,7 +1322,7 @@ footer .container {
     }
 
     .descriptionCont h1 {
-       font-family: 'Happy Monkey', cursive;
+        font-family: 'Happy Monkey', cursive;
         font-size: 18px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -1334,24 +1345,58 @@ footer .container {
     }
 
     ol {
-        display: flex;
-        flex-direction: column;
-        /* overflow-x: scroll; */
-        list-style: none;
-        padding-left: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2px;
+        column-gap: 2px;
     }
 
+    .content {
+        margin-left: 0px;
+    }
+
+    .sourceCont img {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin-top: 3px;
+    }
+
+    .sourceCont .sourceText p {
+        color: whitesmoke;
+        margin-right: 3px;
+        font-size: 13px;
+    }
+
+    .sourceCont span {
+        font-size: 10px;
+        margin-right: 2px;
+    }
+
+    .viewLinkCont button {
+        padding: 2px 5px;
+        border: none;
+        background-color: orangered;
+    }
 
     .movies {
         position: relative;
         cursor: pointer;
         transition: 1s ease;
         background-color: black;
-        width: 250px;
-        height: 330px;
+        width: 140px;
+        height: 230px;
         border-radius: 5px;
-        margin-right: 20px;
         box-shadow: 3px 3px 3px black;
+    }
+
+    .movieTitleCont {
+        top: 5%;
+    }
+
+    .movieTitleCont h4 {
+        overflow: scroll;
+        font-size: 12px;
     }
 
     .searchStatus {
@@ -1373,7 +1418,7 @@ footer .container {
         max-height: 40%;
         overflow-y: scroll;
         font-family: 'Poppins', sans-serif;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 600;
     }
 
