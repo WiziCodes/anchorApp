@@ -57,7 +57,7 @@ const recentMovies = document.getElementById("recents");
 
 const fetchRecents = async () => {
   const response = await fetch(
-    "https://mocki.io/v1/7aa84aff-9f67-430a-b32d-2f52bd83a103"
+    "https://mocki.io/v1/481b5944-b687-4b35-91dc-06fbde33674e"
   );
   const movies = response.json();
   return movies;
@@ -105,7 +105,7 @@ const trendingMovies = document.getElementById("trending");
 
 const fetchTrending = async () => {
   const response = await fetch(
-    "https://mocki.io/v1/fb456028-31c0-44a0-ac2a-d8005d443731"
+    "https://mocki.io/v1/d1fb375c-3e0d-4097-8668-6dc647825bf0"
   );
   const movies = response.json();
   return movies;
@@ -153,7 +153,7 @@ const discoveredMovies = document.getElementById("discover");
 
 const fetchDiscovered = async () => {
   const response = await fetch(
-    "https://mocki.io/v1/77e73b5e-1e98-44ad-afe8-1d20c1a79a11"
+    "https://mocki.io/v1/7ee61926-4fd4-439e-bd2f-417a5a843e3a"
   );
   const movies = response.json();
   return movies;
